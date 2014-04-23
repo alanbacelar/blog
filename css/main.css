@@ -1,0 +1,204 @@
+/*****************************************************************************/
+/*
+/* Variaveis
+/*
+/*****************************************************************************/
+/*****************************************************************************/
+/*
+/* Mixins
+/*
+/*****************************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(syntax.css);
+/*****************************************************************************/
+/*
+/* Genericos
+/*
+/*****************************************************************************/
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 3.6em;
+  margin: 0.2em 0; }
+
+hr {
+  background-color: none;
+  border: none;
+  border-top: 1px solid #d6d9de;
+  margin: 20px 0; }
+
+p {
+  font-size: 1.2em;
+  margin: 1em 0; }
+
+body {
+  background-color: white;
+  border-top: 3px solid #3a3f48;
+  color: #3a3f48;
+  font-size: 62.5%;
+  padding-bottom: 65px;
+  font-family: 'Arial'; }
+  body a {
+    color: #f11a1f; }
+  body a:visited {
+    color: #f11a1f; }
+  body a:hover {
+    color: #ff4d4d;
+    text-decoration: none; }
+
+.only-sm {
+  display: none; }
+
+/*****************************************************************************/
+/*
+/* header
+/*
+/*****************************************************************************/
+header {
+  width: auto;
+  height: 60px;
+  background-color: #f2f2f2; }
+  header .logo {
+    float: left; }
+  header nav {
+    width: 450px;
+    margin: 0;
+    float: right;
+    padding: 10px 0; }
+    header nav ul {
+      margin: auto;
+      padding: 0; }
+      header nav ul li {
+        list-style: none;
+        margin: 3px;
+        float: left; }
+        header nav ul li a {
+          color: #f11a1f;
+          min-width: 20px;
+          text-align: center;
+          padding: 8px;
+          display: block;
+          -webkit-transition: all 0.8s ease-in-out;
+          -moz-transition: all 0.8s ease-in-out;
+          -ms-transition: all 0.8s ease-in-out;
+          -o-transition: all 0.8s ease-in-out;
+          transition: all 0.8s ease-in-out; }
+        header nav ul li a:hover {
+          background-color: #f11a1f;
+          color: white;
+          -webkit-transition: all 0.8s ease-in-out;
+          -moz-transition: all 0.8s ease-in-out;
+          -ms-transition: all 0.8s ease-in-out;
+          -o-transition: all 0.8s ease-in-out;
+          transition: all 0.8s ease-in-out; }
+  header .bt-menu {
+    float: right;
+    padding: 15px;
+    cursor: pointer;
+    display: none; }
+
+/*****************************************************************************/
+/*
+/* Sections
+/*
+/*****************************************************************************/
+section {
+  font-size: 1.3em; }
+  section .content {
+    padding: 20px; }
+  section p.meta {
+    color: #9ea4b0; }
+  section p.resume {
+    color: #687080; }
+
+ul.posts {
+  padding: 0;
+  margin: 30px 0;
+  list-style: none;
+  font-size: 1.3em; }
+  ul.posts li {
+    display: block;
+    margin-bottom: 3px; }
+    ul.posts li a {
+      display: inline-block; }
+    ul.posts li span.date {
+      background-color: white;
+      color: #9ea4b0;
+      display: inline-block;
+      padding: 10px 10px 10px 0; }
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+article.post pre {
+  border: 1px solid #babfc7;
+  background-color: #f2f3f5;
+  padding: 0.5em; }
+  article.post pre code {
+    border: none; }
+article.post pre.terminal {
+  border: 1px solid #3a3f48;
+  background-color: #515864;
+  color: #FFF; }
+  article.post pre.terminal code {
+    background-color: #333; }
+article.post ul, article.post ol {
+  margin-left: 1.35em; }
+article.post code {
+  border: 1px solid #babfc7;
+  background-color: #f2f3f5;
+  padding: 0 .2em; }
+
+/*****************************************************************************/
+/*
+/* Footer
+/*
+/*****************************************************************************/
+footer {
+  border-top: 1px dotted #d6d9de;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2em; }
+
+/*****************************************************************************/
+/*
+/* Mobile
+/*
+/*****************************************************************************/
+/*****************************************************************************/
+/*
+/* Mobile
+/*
+/*****************************************************************************/
+@media only screen and (max-width: 680px) {
+  header nav {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    display: none; }
+    header nav ul li {
+      display: block;
+      float: none; }
+      header nav ul li a {
+        text-align: left; }
+  header .bt-menu {
+    display: block; }
+
+  .only-sm {
+    display: inline-block; } }
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.6em;
+    line-height: 1em; }
+
+  p {
+    font-size: 1em;
+    line-height: 1em; }
+
+  footer {
+    font-size: 1em; } }
