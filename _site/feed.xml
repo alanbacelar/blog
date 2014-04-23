@@ -7,7 +7,7 @@
 		<atom:link href="http://blog.alanbacelar.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Welcome to Jekyll!</title>
+				<title>Primeiro Post!</title>
 				<description>&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
@@ -22,9 +22,9 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 </description>
-				<pubDate>Tue, 22 Apr 2014 07:53:15 -0300</pubDate>
-				<link>http://blog.alanbacelar.com/php/2014/04/22/welcome-to-jekyll.html</link>
-				<guid isPermaLink="true">http://blog.alanbacelar.com/php/2014/04/22/welcome-to-jekyll.html</guid>
+				<pubDate>Tue, 22 Apr 2014 10:53:00 -0300</pubDate>
+				<link>http://blog.alanbacelar.com/php/2014/04/22/primeiro-post.html</link>
+				<guid isPermaLink="true">http://blog.alanbacelar.com/php/2014/04/22/primeiro-post.html</guid>
 			</item>
 		
 	</channel>
