@@ -1,3 +1,5 @@
 name: Alan Bacelar - Blog
+# description: A description for your blog
+url: http://blog.alanbacelar.com
 markdown: redcarpet
 pygments: true
