@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll! This is a large title, I think!"
+title:  "Welcome to Jekyll!"
 date:   2014-04-22 10:53:15
 update: 2014-04-23 10:53:15
 categories: php

@@ -154,6 +154,9 @@ article.post code {
   background-color: #f2f3f5;
   padding: 0 .2em; }
 
+#disqus_thread {
+  margin-top: 50px; }
+
 /*****************************************************************************/
 /*
 /* Footer
