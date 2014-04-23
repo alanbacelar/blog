@@ -40,6 +40,10 @@ body {
 
 	a {
 		color: $linkColor;
+
+		img {
+			border: none; //For IE
+		}
 	}
 
 	a:visited {

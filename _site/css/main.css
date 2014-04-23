@@ -43,6 +43,8 @@ body {
   font-family: 'Arial'; }
   body a {
     color: #f11a1f; }
+    body a img {
+      border: none; }
   body a:visited {
     color: #f11a1f; }
   body a:hover {
