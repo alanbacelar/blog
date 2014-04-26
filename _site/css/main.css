@@ -137,27 +137,32 @@ ul.posts {
 /* Posts
 /*
 /*****************************************************************************/
-article.post pre {
-  border: 1px solid #babfc7;
-  background-color: #f2f3f5;
-  padding: 0.5em; }
-  article.post pre code {
-    border: none; }
-article.post pre.terminal {
-  border: 1px solid #3a3f48;
-  background-color: #515864;
-  color: #FFF; }
-  article.post pre.terminal code {
-    background-color: #333; }
-article.post ul, article.post ol {
-  margin-left: 1.35em; }
-article.post code {
-  border: 1px solid #babfc7;
-  background-color: #f2f3f5;
-  padding: 0 .2em; }
+article.post {
+  max-width: 910px;
+  margin: auto;
+  text-align: justify; }
+  article.post pre {
+    border: 1px solid #babfc7;
+    background-color: #f2f3f5;
+    padding: 0.5em; }
+    article.post pre code {
+      border: none; }
+  article.post pre.terminal {
+    border: 1px solid #3a3f48;
+    background-color: #515864;
+    color: #FFF; }
+    article.post pre.terminal code {
+      background-color: #333; }
+  article.post ul, article.post ol {
+    margin-left: 1.35em; }
+  article.post code {
+    border: 1px solid #babfc7;
+    background-color: #f2f3f5;
+    padding: 0 .2em; }
 
 #disqus_thread {
-  margin-top: 50px; }
+  max-width: 910px;
+  margin: 50px auto auto auto; }
 
 /*****************************************************************************/
 /*

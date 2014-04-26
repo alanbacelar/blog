@@ -203,10 +203,15 @@ article.post {
 		background-color: lighten($baseColor, 70%);
 		padding: 0 .2em;
 	}
+
+	max-width: 910px;
+	margin: auto;
+	text-align: justify;
 }
 
 #disqus_thread {
-	margin-top: 50px;
+	max-width: 910px;
+	margin: 50px auto auto auto;
 }
 
 /*****************************************************************************/
