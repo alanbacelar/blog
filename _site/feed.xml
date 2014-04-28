@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Alan Bacelar - Blog</title>
-		<description></description>		
+		<title>Alan Bacelar</title>
+		<description>Desenvolvimento web</description>		
 		<link>http://blog.alanbacelar.com</link>
 		<atom:link href="http://blog.alanbacelar.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Infográfico: Conversão e Usabilidade</title>
+				<description>&lt;p&gt;Dê uma olhada nesse infográfico muito bacana que o pessoal do &lt;a href=&quot;http://viverdeblog.com&quot;&gt;Viver de blog&lt;/a&gt; nos disponibilizou:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#39;http://landing.viverdeblog.com/infografico-conversao-usabilidade/&#39; title=&#39;Infográfico: Conversão e Usabilidade&#39; &gt;&lt;img src=&#39;http://viverdeblog.com/wp-content/uploads/2013/12/Viver-de-Blog-Infográfico-Conversão-e-Usabilidade-600px.jpg&#39; alt=&#39;Conversão e Usabilidade&#39; title=&#39;Infográfico: Conversão e Usabilidade&#39; width=&#39;&#39; height=&#39;&#39;/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href=&#39;http://landing.viverdeblog.com/infografico-conversao-usabilidade/&#39;&gt;&lt;strong&gt;» Clique Aqui para baixar uma versão em Alta Resolução desse infográfico «&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Link original: &lt;a href=&quot;http://landing.viverdeblog.com/baixar-infografico-conversao-usabilidade-fb/&quot;&gt;http://landing.viverdeblog.com/baixar-infografico-conversao-usabilidade-fb/&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 27 Apr 2014 21:07:00 -0300</pubDate>
+				<link>http://blog.alanbacelar.com/webdesign/2014/04/27/infografico-conversao-usabilidade.html</link>
+				<guid isPermaLink="true">http://blog.alanbacelar.com/webdesign/2014/04/27/infografico-conversao-usabilidade.html</guid>
+			</item>
 		
 			<item>
 				<title>Iniciando o nosso blog com Jekyll</title>
